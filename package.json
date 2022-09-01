@@ -1,0 +1,27 @@
+{
+  "name": "@ria-develop/ssl-cert",
+  "version": "1.0.0",
+  "bin": {
+    "cert": "bin/cert.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.2",
+    "selfsigned": "^2.0.1",
+    "yargs": "^17.5.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@ria-develop"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@ria-develop/eslint-config": "^1.0.8",
+    "@types/node-forge": "^1.0.4",
+    "@types/yargs": "^17.0.12",
+    "node-forge": "^1.3.1"
+  }
+}
